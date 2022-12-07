@@ -1,0 +1,587 @@
+<html>
+
+    <style>
+        body{
+           background-image: url('../static/img/Screenshot (145).png');
+           background-size: cover;
+           background-repeat:no-repeat;
+        }
+
+        .gfg {
+            background-color: black;
+            opacity: 0.3;
+            height: 650px;
+            width: 100%;
+            position: relative;
+            top: 100px;
+        }
+        .fst-txt
+        {
+            position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 30px;
+            top:15px;
+            left: 20px;
+        }
+        .Snd-txt
+        {
+            position: absolute;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            top: 90px;
+            font-size: 40px;
+            left: 20px;
+            opacity: 1;
+        }
+        .thrd-txt
+        {
+            position: absolute;
+            color: white;
+            font-style:normal;
+            font-weight: lighter;
+            font-family: Arial;
+            font-size: 15px;
+            left: 20px;
+            top:170px;
+            opacity: 1;
+        }
+
+           .frth-txt
+        {
+            position: absolute;
+            color: white;
+            font-style:normal;
+            font-weight: lighter;
+            font-family: Arial;
+            font-size: 20px;
+            left: 28%;
+            top:215px;
+            opacity: 1;
+        }
+
+        .fifth-txt
+        {
+            position: absolute;
+            color: white;
+            font-style: normal;
+            font-weight:bold;
+            font-family:'Franklin Gothic Medium';
+            top: 240px;
+            font-size: 30px;
+            left: 28%;
+            opacity: 1;
+        }
+
+        .sth-txt
+        {
+            position: absolute;
+            color: white;
+            font-style:normal;
+            font-weight: lighter;
+            font-family: Arial;
+            font-size: 15px;
+            left: 28%;
+            top:300px;
+            opacity: 1;
+        }
+
+        .fst-txt2
+        {
+          position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 22px;
+            left: 55px;
+            top: 27%;
+
+        }
+        .svth-txt
+        {
+            position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 22px;
+            left: 55px;
+            top: 32%;
+        }
+        .eth-txt
+        {
+            position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 22px;
+            left: 55px;
+            top: 37%;
+        }
+        .ninth-txt
+        {
+            position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 22px;
+            left: 55px;
+            top: 42%;
+        }
+        .tnth-txt
+        {
+            position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 22px;
+            left: 55px;
+            top: 47.5%;
+        }
+
+        .elvth-txt
+        {
+            position: absolute;
+            color: black;
+            font-style: normal;
+            font-weight:bolder;
+            font-family:'Franklin Gothic Medium';
+            top: 23%;
+            font-size: 35px;
+            left: 5%;
+            opacity: 1;
+        }
+
+             hr {width: 100%;
+                top: 200px;
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                height: 0.1px;
+                background-color:darkgray;
+                opacity: 0.3;}
+            
+            .vl {
+                border-left: 6px solid green;
+                height: 500px;
+                position: relative;
+                left: 50%;
+                margin-left: -3px;
+                top: 0; }
+
+                .vertical {
+                border-left: 0.1px solid darkgray;
+                height: 450px;
+                position:absolute;
+                opacity: 0.3;
+                left: 25%;
+                top: 30%;
+                 }
+                
+/* Modal Content/Box */
+            .modal-content 
+            {
+            position: absolute;
+            background-color:white;
+            
+            opacity: 0.3;
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 40px;
+            width: 50%; /* Could be more or less, depending on screen size */
+            height:20%;
+            top:0px;
+            left:28%
+            }
+
+            .modal-content1 
+            {
+            position: absolute;
+            background-color:white;
+            
+            opacity: 0.3;
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 40px;
+            width: 50%; /* Could be more or less, depending on screen size */
+            height:20%;
+            top:200px;
+            left:28%
+            }
+            .modal-content6 
+            {
+            position: absolute;
+            background-color:white;
+            opacity: 0.3;
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 100%;
+            width: 4%; /* Could be more or less, depending on screen size */
+            height:8%;
+            top:-70px;
+            left:12%
+            }
+
+            .modal-content2 
+            {
+            position: absolute;
+            background-color:mediumspringgreen;
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 100%;
+            width: 4%; /* Could be more or less, depending on screen size */
+            height:8%;
+            top:10px;
+            left:12%
+            }
+
+            .modal-content3 
+            {
+            position: absolute;
+            background-color:white;
+            opacity: 0.3;
+            background-image: url('../static/img/193-1930614_door-entrance-enter-cartoon-door-black-and-white.png');
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 100%;
+            width: 4%; /* Could be more or less, depending on screen size */
+            height:8%;
+            top: 90px;
+            left:12%
+            }
+            .modal-content4 
+            {
+            position: absolute;
+            background-color:white;
+            opacity: 0.3;
+            background-image: url('../static/img/193-1930614_door-entrance-enter-cartoon-door-black-and-white.png');
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 100%;
+            width: 4%; /* Could be more or less, depending on screen size */
+            height:8%;
+            top:170px;
+            left:12%
+            }
+
+            .modal-content5 
+            {
+            position: absolute;
+            background-color:white;
+            opacity: 0.3;
+            background-image: url('../static/img/193-1930614_door-entrance-enter-cartoon-door-black-and-white.png');
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 100%;
+            width: 4%; /* Could be more or less, depending on screen size */
+            height:8%;
+            top:250px;
+            left:12%
+            }
+           
+            /* .modal-content:hover{border-color: mediumseagreen;} */
+            .container {
+            padding: 16px;
+            }
+
+.number-wrapper {
+  position: relative;
+  background-color: mediumspringgreen;
+  border-radius: 10px;
+  height: 100px;
+  size: 100px;
+}
+
+.number-wrapper:after,
+.number-wrapper:before {
+  position: absolute;
+  right: 5px;
+  width: 1.6em;
+  height: .9em;
+  font-size: 10px;
+  pointer-events: none;
+  background: #fff;
+}
+
+.number-wrapper:after {
+  color: blue;
+  
+  content: "\25B2";
+  margin-top: 1px;
+}
+
+.number-wrapper:before {
+  color: red;
+  content: "\25BC";
+  margin-bottom: 5px;
+  bottom: -.5em;
+}
+
+input[type='number']{
+    width: 80px;
+    height: 100px;
+    background-color: transparent;
+    font-size: 50px;
+    position: relative;
+    top: 20%;
+    left: 80%;
+    border: 0px;
+} 
+.hg{
+            position: relative;
+            top: 15%;
+            left: 15%;
+        }
+            
+        .roomg{
+            position: relative;
+            top: 18%;
+            left: 20%;
+        }
+        .areag{
+            position: relative;
+            top: 15%;
+            left: 18%;
+        }
+        .locg{
+            position: relative;
+            top: 15%;
+            left: 18%;
+        }
+        .ameng{
+            position: relative;
+            top: 15%;
+            left: 15%;
+        }
+.g{
+    position: relative;
+    top: 50%;
+    left: 32%;
+}
+
+.button5 {
+      background-color: #04AA6D;
+      background:-webkit-linear-gradient();
+      border-radius: 20px;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: transparent;
+      cursor: pointer;
+      width: 15%;
+      opacity: 0.9;
+      position: absolute;
+      top :80%;
+      left: 80%;
+      
+    }
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+   
+   
+ 
+.button0 {
+      background-color: transparent; /* Green */
+      color: white;
+      text-align: center;
+      text-decoration:none;
+      font-size: 18px;
+      font-family:'Lucida Sans';
+      height: 40px;
+      width: 110px;
+      border-style: hidden;
+      cursor:pointer;
+      top : 10px;
+      right : 23px;
+      position: absolute;
+    }
+
+    .button0:hover {
+      background-color: transparent;
+      opacity: 0.3;
+      color: white;
+      }
+
+   
+
+    .button1 {
+      background-color: transparent; /* Green */
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      font-style:normal; 
+      font-family:'Lucida Sans';
+      height: 40px;
+      width: 100px;
+      border-style: hidden;
+      cursor: pointer;
+      top : 10px;
+      right : 115px;
+    position: absolute;
+    }
+    .button1:hover {
+      background-color: transparent;
+      opacity: 0.3;
+      color: white;
+      }
+
+
+    .button2 {
+      background-color: transparent; /* Green */
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      /* display: inline-block; */
+      font-size: 18px;
+      font-style:normal; 
+      font-family:'Lucida Sans';
+      border-style: hidden;
+      height: 40px;
+      width: 120px;
+      cursor: pointer;
+      top : 10px;
+      right : 200px;
+      position: absolute;
+    }
+    .button2:hover {
+      background-color: transparent;
+      opacity: 0.3;
+      color: white;
+      }
+
+    .button3 {
+      background-color: transparent; /* Green */
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      font-style:normal; 
+      font-family:'Lucida Sans';
+      border-style: hidden;
+      height: 40px;
+      width: 100px;
+      cursor: pointer;
+      top : 10px;
+      right : 305px;
+      position: absolute;
+    }
+    .button3:hover {
+      background-color: transparent;
+      opacity: 0.3;
+      color: white;
+      }
+    .button4 {
+      background-color: transparent; /* Green */
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      /* display: inline-block; */
+      font-size: 15px;
+      font-style:normal; 
+      font-family:'Lucida Sans';
+      height: 40px;
+      width: 120px;
+      border-style: hidden;
+      cursor: pointer;
+      top : 10px;
+      right :380px;
+    position: absolute;
+    }
+    .button4:hover {
+      background-color: transparent;
+      opacity: 0.3;
+      color: white;
+      }
+   
+  .logo{
+
+position: absolute;
+top: 5px;
+left:10px;
+}
+   </style>
+
+
+
+<body>
+
+  <button class="button0" onclick="window.location='/dashboard/{{username}}'">Dashboard</button>
+  <button class="button1"onclick="window.location='/aboutus'">About</button>
+
+  <button class="button2" onclick="window.location='/contactus'">Contact Us</button>
+  <button class="button3"  onclick="window.location='/'">Home</button>
+
+<h1 class="fst-txt">BeiTech</h1>
+<div class="logo">
+  <img src="../static/img/logo.png" width=50px height=50px>
+</div>
+<h2 class="Snd-txt">Property Details Form</h2>
+<h1 class="thrd-txt">Follow the 4 steps below to register your property</h1>
+<hr>
+<div class="vertical"></div>
+<h1 class="frth-txt">Step 2/5</h1>
+<h1 class="fifth-txt">How many rooms do you have ?</h1>
+<h1 class="sth-txt">Kindly enter the number of rooms you have along with the corresponding type </h1>
+
+<form action = "{{ url_for("pd1")}}" method = "post">
+
+<div class="modal-content">
+    <input  type="number" id="Bedrooms" name="Bedrooms"
+    min="1" max="10"> 
+    <h1 class="elvth-txt">Bedrooms</h1>
+</div>
+<div class="modal-content1">
+    <input type="number" id="Bathrooms" name="Bathrooms"
+    min="1" max="10"> 
+    <h1 class="elvth-txt">Bathrooms</h1>
+
+</div>
+
+<div class="clearfix">
+    <button type="submit" class="button5" >Next Step</button>
+  </div>
+
+</form>
+
+
+
+<div class="modal-content6">
+  <div class="hg">
+      <img src="../static/img/house.png" width=70% height=70% >
+  </div>
+</div>
+<div class="modal-content2">
+<div class="roomg">
+    <img src="../static/img/km.png" width=55% height=60% >
+</div>
+</div>
+<div class="modal-content3">
+<div class="areag">
+    <img src="../static/img/area.png" width=70% height=70% >
+
+</div>
+</div>
+<div class="modal-content4">
+    <div class="locg">
+        <img src="../static/img/location2 .png" width=60% height=60% >
+
+    </div>
+</div>
+<div class="modal-content5">
+    <div class="ameng">
+        <img src="../static/img/amenities.png" width=70% height=70% >
+
+    </div>
+</div>
+
+<h1 class="fst-txt2"> House Type</h1>
+<h1 class="svth-txt">Rooms</h1>
+<h1 class="eth-txt">Areas</h1>
+<h1 class="ninth-txt">Location</h1>
+<h1 class="tnth-txt">Other</h1>
+
+</body>
+</html>

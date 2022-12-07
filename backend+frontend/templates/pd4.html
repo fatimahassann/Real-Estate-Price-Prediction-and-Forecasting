@@ -1,0 +1,967 @@
+<html>
+    <style>
+        body{
+           background-image: url('../static/img/Screenshot (149).png');
+           background-size: cover;
+           background-repeat:no-repeat;
+           overflow-x: hidden;
+        }
+
+        .fst-txt
+        {
+            position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 30px;
+            left: 20px;
+            top: 15px;
+        }
+        .Snd-txt
+        {
+            position: absolute;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            top: 90px;
+            font-size: 40px;
+            left: 20px;
+            opacity: 1;
+        }
+        .thrd-txt
+        {
+            position: absolute;
+            color: white;
+            font-style:normal;
+            font-weight: lighter;
+            font-family: Arial;
+            font-size: 15px;
+            left: 20px;
+            top:170px;
+            opacity: 1;
+        }
+
+           .frth-txt
+        {
+            position: absolute;
+            color: white;
+            font-style:normal;
+            font-weight: lighter;
+            font-family: Arial;
+            font-size: 20px;
+            left: 28%;
+            top:215px;
+            opacity: 1;
+        }
+
+        .fifth-txt
+        {
+            position: absolute;
+            color: white;
+            font-style: normal;
+            font-weight:bold;
+            font-family:'Franklin Gothic Medium';
+            top: 240px;
+            font-size: 30px;
+            left: 28%;
+            opacity: 1;
+        }
+
+        .sth-txt
+        {
+            position: absolute;
+            color: white;
+            font-style:normal;
+            font-weight: lighter;
+            font-family: Arial;
+            font-size: 15px;
+            left: 28%;
+            top:300px;
+            opacity: 1;
+        }
+
+        .fifth2-txt
+        {
+            position: absolute;
+            color: white;
+            font-style: normal;
+            font-weight:bold;
+            font-family:'Franklin Gothic Medium';
+            top: 240px;
+            font-size: 30px;
+            left: 65%;
+            opacity: 1;
+        }
+
+        .sth2-txt
+        {
+            position: absolute;
+            color: white;
+            font-style:normal;
+            font-weight: lighter;
+            font-family: Arial;
+            font-size: 15px;
+            left: 65%;
+            top:300px;
+            opacity: 1;
+        }
+
+
+
+        .fst-txt2
+        {
+          position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 22px;
+            left: 55px;
+            top: 28%;
+
+        }
+        .svth-txt
+        {
+            position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 22px;
+            left: 55px;
+            top: 33%;
+        }
+        .eth-txt
+        {
+            position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 22px;
+            left: 55px;
+            top: 38%;
+        }
+        .ninth-txt
+        {
+            position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 22px;
+            left: 55px;
+            top: 43%;
+        }
+        .tnth-txt
+        {
+            position: relative;
+            color: white;
+            font-style: normal;
+            font-family:'Franklin Gothic Medium';
+            font-size: 22px;
+            left: 55px;
+            top: 48.5%;
+        }
+
+
+        .elvth-txt
+        {
+            position: absolute;
+            color: white;
+            font-style: normal;
+            font-weight:bold;
+            font-family:'Franklin Gothic Medium';
+            top: 420px;
+            font-size: 30px;
+            left: 28%;
+            opacity: 1;
+        }
+
+        .twlth-txt
+        {
+            position: absolute;
+            color: white;
+            font-style:normal;
+            font-weight: lighter;
+            font-family: Arial;
+            font-size: 15px;
+            left: 28%;
+            top:480px;
+            opacity: 1;
+        }
+
+
+        .thrth-txt
+        {
+            position: absolute;
+            color: white;
+            font-style:normal;
+            font-weight:bold;
+            font-family:'Franklin Gothic Medium';
+            font-size: 30px;
+            left: 65%;
+            top:420px;
+            opacity: 1;
+        }
+
+        .frtth-txt
+        {
+            position: absolute;
+            color: white;
+            font-style:normal;
+            font-weight: lighter;
+            font-family: Arial;
+            font-size: 15px;
+            left: 65%;
+            top:480px;
+            opacity: 1;
+        }
+        hr {width: 100%;
+                top: 200px;
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                height: 0.1px;
+                background-color:darkgray;
+                opacity: 0.3;}
+            
+            .vl {
+                border-left: 6px solid green;
+                height: 500px;
+                position: relative;
+                left: 50%;
+                margin-left: -3px;
+                top: 0; }
+
+                .vertical {
+                border-left: 0.1px solid darkgray;
+                height: 450px;
+                position:absolute;
+                opacity: 0.3;
+                left: 25%;
+                top: 30%;
+                 }
+
+
+            .modal-content1 
+            {
+            position: absolute;
+            background-color:white;
+            opacity: 0.3;
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 100%;
+            width: 4%; /* Could be more or less, depending on screen size */
+            height:8%;
+            top:-70px;
+            left:12%
+            }
+
+            .modal-content2 
+            {
+            position: absolute;
+            background-color:white;
+            opacity: 0.3;
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 100%;
+            width: 4%; /* Could be more or less, depending on screen size */
+            height:8%;
+            top:10px;
+            left:12%
+            }
+
+            .modal-content3 
+            {
+            position: absolute;
+            background-color:white;
+            opacity: 0.3;
+            background-image: url('../static/img/193-1930614_door-entrance-enter-cartoon-door-black-and-white.png');
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 100%;
+            width: 4%; /* Could be more or less, depending on screen size */
+            height:8%;
+            top: 90px;
+            left:12%
+            }
+            .modal-content4 
+            {
+            position: absolute;
+            background-color:white;
+            opacity: 0.3;
+            background-image: url('../static/img/193-1930614_door-entrance-enter-cartoon-door-black-and-white.png');
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 100%;
+            width: 4%; /* Could be more or less, depending on screen size */
+            height:8%;
+            top:170px;
+            left:12%
+            }
+
+            .modal-content5 
+            {
+            position: absolute;
+            background-color:mediumspringgreen;
+            background-image: url('../static/img/193-1930614_door-entrance-enter-cartoon-door-black-and-white.png');
+            margin: 20% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border-radius: 100%;
+            width: 4%; /* Could be more or less, depending on screen size */
+            height:8%;
+            top:250px;
+            left:12%
+            }
+
+        .hg{
+            position: relative;
+            top: 15%;
+            left: 15%;
+        }
+            
+        .roomg{
+            position: relative;
+            top: 18%;
+            left: 20%;
+        }
+        .areag{
+            position: relative;
+            top: 15%;
+            left: 18%;
+        }
+        .locg{
+            position: relative;
+            top: 15%;
+            left: 18%;
+        }
+        .ameng{
+            position: relative;
+            top: 15%;
+            left: 15%;
+        }
+
+        .clearfix {
+        position: absolute;
+        top:80%;
+        left:83%;
+        }
+
+        .button5 {
+            background-color: #04AA6D;
+            background:-webkit-linear-gradient();
+            border-radius: 20px;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: transparent;
+            cursor: pointer;
+            width: 250px;
+            opacity: 0.9;
+            position: absolute;
+            top :60%;
+            left: 50%;
+            
+            }
+
+/* 
+            .input-hidden {
+                position: absolute;
+                left: -9999px;
+                }
+
+                input[type=radio]:checked + label>img {
+                border: 1px solid #fff;
+                box-shadow: 0 0 3px 3px mediumspringgreen;
+                }
+
+                /* Stuff after this is only to make things more pretty */
+                input[type=radio] + label>img {
+                border: 1px dashed #444;
+                width: 150px;
+                height: 150px;
+                transition: 500ms all;
+                } */
+
+                /* input[type=radio]:checked + label>img {
+                transform: 
+                    rotateZ(-10deg) 
+                    rotateX(10deg);
+                } */
+                .pg
+                {
+                    position: absolute;
+                    top:600px;
+                    left:500px;
+
+
+                }
+
+                .pg1
+                {
+                    position: absolute;
+                    top:380px;
+                    left:500px;
+
+
+                }
+
+                .pg2
+                {
+                    position: absolute;
+                    top:600px;
+                    left:700px;
+
+
+                }
+                .pg3
+                {
+                    position: absolute;
+                    top:380px;
+                    left:700px;
+
+
+                }
+
+                .T-txt
+                {
+                    position: absolute;
+                    color: white;
+                    font-style: normal;
+                    font-family:'Franklin Gothic Medium';
+                    font-size: 25px;
+                    left: 30%;
+                    top: 40%;
+                }
+
+                .T1-txt
+                {
+                    position: absolute;
+                    color: white;
+                    font-style: normal;
+                    font-family:'Franklin Gothic Medium';
+                    font-size: 25px;
+                    left: 32%;
+                    top: 68%;
+                }
+
+                .T2-txt
+                {
+                    position: absolute;
+                    color: white;
+                    font-style: normal;
+                    font-family:'Franklin Gothic Medium';
+                    font-size: 25px;
+                    left: 42.5%;
+                    top: 40%;
+                }
+
+                .T3-txt
+                {
+                    position: absolute;
+                    color: white;
+                    font-style: normal;
+                    font-family:'Franklin Gothic Medium';
+                    font-size: 25px;
+                    left: 41.5%;
+                    top: 68%;
+                }
+ 
+                .button0 {
+      background-color: transparent; /* Green */
+      color: white;
+      text-align: center;
+      text-decoration:none;
+      font-size: 18px;
+      font-family:'Lucida Sans';
+      height: 40px;
+      width: 110px;
+      border-style: hidden;
+      cursor:pointer;
+      top : 10px;
+      right : 23px;
+      position: absolute;
+    }
+
+    .button0:hover {
+      background-color: transparent;
+      opacity: 0.3;
+      color: white;
+      }
+
+   
+
+    .button1 {
+      background-color: transparent; /* Green */
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      font-style:normal; 
+      font-family:'Lucida Sans';
+      height: 40px;
+      width: 100px;
+      border-style: hidden;
+      cursor: pointer;
+      top : 10px;
+      right : 115px;
+    position: absolute;
+    }
+    .button1:hover {
+      background-color: transparent;
+      opacity: 0.3;
+      color: white;
+      }
+
+
+    .button2 {
+      background-color: transparent; /* Green */
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      /* display: inline-block; */
+      font-size: 18px;
+      font-style:normal; 
+      font-family:'Lucida Sans';
+      border-style: hidden;
+      height: 40px;
+      width: 120px;
+      cursor: pointer;
+      top : 10px;
+      right : 200px;
+      position: absolute;
+    }
+    .button2:hover {
+      background-color: transparent;
+      opacity: 0.3;
+      color: white;
+      }
+
+    .button3 {
+      background-color: transparent; /* Green */
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      font-style:normal; 
+      font-family:'Lucida Sans';
+      border-style: hidden;
+      height: 40px;
+      width: 100px;
+      cursor: pointer;
+      top : 10px;
+      right : 305px;
+      position: absolute;
+    }
+    .button3:hover {
+      background-color: transparent;
+      opacity: 0.3;
+      color: white;
+      }
+    .button4 {
+      background-color: transparent; /* Green */
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      /* display: inline-block; */
+      font-size: 15px;
+      font-style:normal; 
+      font-family:'Lucida Sans';
+      height: 40px;
+      width: 120px;
+      border-style: hidden;
+      cursor: pointer;
+      top : 10px;
+      right :380px;
+    position: absolute;
+    }
+    .button4:hover {
+      background-color: transparent;
+      opacity: 0.3;
+      color: white;
+      }
+
+      .logo{
+          position: absolute;
+          top: 5px;
+          left:10px;
+          }
+
+  .h{
+    position: absolute;
+    top:350px;
+  left:475px;
+  }
+
+  .h2{
+    position: absolute;
+    top:530px;
+  left:475px;
+  }
+
+  .h3{
+    position: absolute;
+    top:530px;
+  left:1065px;
+  }
+
+  details {
+	position: absolute;
+	width: 500px;
+	margin-right: 20px;
+  
+}
+
+details[open] {
+	z-index: 1;
+}
+
+summary {
+	padding: 1rem;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #ddd;
+	list-style:none;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+details[open] summary:before {
+	content: '';
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	background: transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+summary:after {
+	content: '';
+	display: inline-block;
+	float: right;
+	width: .5rem;
+	height: .5rem;
+	border-bottom: 1px solid currentColor;
+	border-left: 1px solid currentColor;
+	border-bottom-left-radius: 2px;
+	transform: rotate(45deg) translate(50%, 0%);
+	transform-origin: center center;
+	transition: transform ease-in-out 100ms
+}
+
+summary:focus {
+	outline: none;
+}
+
+details[open] summary:after {
+	transform: rotate(-45deg) translate(0%, 0%);
+}
+
+ul {
+	width: 100%;
+	background: #ddd;
+	position: absolute;
+	top: calc(100% + .5rem);
+	left: 0px;
+	padding: 1rem;
+	margin: 0;
+	box-sizing: border-box;
+  list-style: none;
+	border-radius: 5px;
+	max-height: 200px;
+	overflow-y: auto;
+}
+
+li {
+	margin: 0;
+	padding: 1rem 0;
+	border-bottom: 1px solid #ccc;
+}
+
+li:first-child {
+	padding-top: 0;
+}
+
+li:last-child {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+/* FAKE SELECT */
+
+summary.radios {
+	counter-reset: radios;
+}
+
+summary.radios:before {
+	content: var(--selection);
+}
+
+input[type=radio] {
+	counter-increment: radios;
+	appearance: none;
+	display: none;
+}
+
+input[type=radio]:checked {
+	display: inline;
+	--display: block;
+}
+
+input[type=radio]:after {
+	content: attr(title);
+	display: inline;
+	font-size: 1rem;
+}
+
+ul.list {
+	counter-reset: labels;
+}
+
+label {
+	width: 100%;
+	display: flex;
+	cursor: pointer;
+	justify-content: space-between;
+}
+
+label span {
+	--display: none;
+	display: var(--display);
+	width: 1rem;
+	height: 10rem;
+	border: 1px solid #727272;
+	border-radius: 3px;
+}
+.in
+{
+  top:700px;
+  left:700px;
+}
+
+input[type=text]{
+  width: 500px;
+  padding: 15px;
+
+   margin: 90px 0 0 1060px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+
+        </style>
+
+
+<body>
+  <button class="button0" onclick="window.location='/dashboard/{{username}}'">Dashboard</button>
+  <button class="button1"onclick="window.location='/aboutus'">About</button>
+
+  <button class="button2" onclick="window.location='/contactus'">Contact Us</button>
+  <button class="button3"  onclick="window.location='/'">Home</button>
+
+    <h1 class="fst-txt">BeiTech</h1>
+
+    <div class="logo">
+      <img src="../static/img/logo.png" width=50px height=50px>
+    </div>
+    <h2 class="Snd-txt">Property Details Form</h2>
+    <h1 class="thrd-txt">Follow the 4 steps below to register your property</h1>
+    <hr>
+    <div class="vertical"></div>
+    <h1 class="frth-txt">Step 5/5</h1>
+    <h1 class="fifth-txt">What's your property's landscape?</h1>
+    <h1 class="sth-txt">Please input the view of your unit.</h1>
+
+    
+    <div class="modal-content1">
+      <div class="hg">
+          <img src="../static/img/house.png" width=70% height=70% >
+      </div>
+  </div>
+
+    <div class="modal-content2">
+        <div class="roomg">
+            <img src="../static/img/km.png" width=55% height=60% >
+        </div>
+    </div>
+    <div class="modal-content3">
+        <div class="areag">
+            <img src="../static/img/area.png" width=70% height=70% >
+        </div>
+    </div>
+    <div class="modal-content4">
+        <div class="locg">
+            <img src="../static/img/location2 .png" width=60% height=60% >
+        </div>
+    </div>
+    <div class="modal-content5">
+        <div class="ameng">
+            <img src="../static/img/amenities.png" width=70% height=70% >
+        </div>
+    </div>
+
+
+<h1 class="fst-txt2"> House Type</h1>
+<h1 class="svth-txt">Rooms</h1>
+<h1 class="eth-txt">Areas</h1>
+<h1 class="ninth-txt">Location</h1>
+<h1 class="tnth-txt">Other</h1>
+
+
+
+<form action = "{{ url_for("pd4")}}" method = "post">
+
+<!-- <div class="pg">
+    <input type="radio" name="landscape" id="pool" class="input-hidden" value="pool"/>
+  <label for="pool">
+    <img src="../static/img/pool.png" alt="pool" />
+  </label>
+</div>
+<div class="pg1">
+  <input type="radio" name="landscape" id="sidestreet" class="input-hidden"  value="Side Street" />
+  <label for="sidestreet">
+    <img  src="../static/img/sidestreet.jpg" alt="sidestreet" />
+  </label>
+</div>
+
+<div class="pg2">
+    <input type="radio" name="landscape" id="mainstreet" class="input-hidden"  value="Main Street"/>
+    <label for="mainstreet">
+      <img  src="../static/img/mainstreet.png" alt="mainstreet" />
+    </label>
+  </div>
+
+<div class="pg3">
+    <input type="radio" name="landscape" id="seaview" class="input-hidden" value="Seaview"/>
+    <label for="seaview">
+      <img  src="../static/img/seaview.png" alt="seaview" />
+    </label>
+  </div> -->
+
+<div class="h">
+  <details class="custom-select">
+    <summary class="radios">
+      <input type="radio" name="view" id="default" title="Select view..." checked>
+      <input type="radio" name="view" id="item1" title="Garden" value="Garden">
+      <input type="radio" name="view" id="item2" title="Seaview" value="Seaview">
+      <input type="radio" name="view" id="item3" title="Pool" value="Pool">
+      <input type="radio" name="view" id="item4" title="Main Street" value="Main Street">
+      <input type="radio" name="view" id="item5" title="Golf Course" value="Golf">      
+      <input type="radio" name="view" id="item6" title="Side Street" value="Side Street">
+      <input type="radio" name="view" id="item7" title="Nile" value="Nile">
+    </summary>
+    <ul class="list">
+      <li>
+        <label for="item1"> Garden </label>
+      </li>
+      <li>
+        <label for="item2">Seaview</label>
+      </li>
+      <li>
+        <label for="item3">Pool</label>
+      </li>
+      <li>
+        <label for="item4">Main Street</label>
+      </li>
+      <li>
+        <label for="item5">Golf Course</label>
+      </li>
+      <li>
+        <label for="item6">Side Street</label>
+      </li>
+      <li>
+        <label for="item7">Nile</label>
+      </li>
+    </ul>
+  </details>
+</div>  
+
+<h1 class="elvth-txt">How's your property finished?</h1>
+<h1 class="twlth-txt">Please input the finishing type of your unit.</h1>
+
+<div class="h2">
+  <details class="custom-select">
+    <summary class="radios">
+      <input type="radio" name="FinishType" id="default" title="Select ..." checked>
+      <input type="radio" name="FinishType" id="item8" title="Super Lux" value="SUPER_LUX">
+      <input type="radio" name="FinishType" id="item9" title="Without Finish" value="WITHOUT_FINISH">
+      <input type="radio" name="FinishType" id="item10" title="Extra Super Lux" value="EXTRA_SUPER_LUX">
+      <input type="radio" name="FinishType" id="item11" title="Lux" value="LUX">
+      <input type="radio" name="FinishType" id="item12" title="Semi Finished" value="SEMI_FINISHED"> 
+    </summary>
+    <ul class="list">
+      <li>
+        <label for="item8"> Super Lux </label>
+      </li>
+      <li>
+        <label for="item9">Without Finish</label>
+      </li>
+      <li>
+        <label for="item10">Extra Super Lux</label>
+      </li>
+      <li>
+        <label for="item11">Lux</label>
+      </li>
+      <li>
+        <label for="item12">Semi Finished</label>
+      </li>
+      
+    </ul>
+  </details>
+</div>  
+
+
+<h1 class="fifth2-txt">What year was your property built ?</h1>
+<h1 class="sth2-txt">Please input the year.</h1>
+
+<input type="text" placeholder="Year" name="year" required>
+
+
+
+
+<h1 class="thrth-txt">Payment Method ?</h1>
+<h1 class="frtth-txt">Please input your perferred payment.</h1>
+
+<div class="h3">
+  <details class="custom-select">
+    <summary class="radios">
+      <input type="radio" name="Payment" id="default" title="Select ..." checked>
+      <input type="radio" name="Payment" id="item13" title="Installements" value="Installments">
+      <input type="radio" name="Payment" id="item14" title="Cash" value="Cash">
+    </summary>
+    <ul class="list">
+      <li>
+        <label for="item13"> Installements </label>
+      </li>
+      <li>
+        <label for="item14">Cash</label>
+      </li>
+    </ul>
+  </details>
+</div>  
+
+
+
+
+    <div class="clearfix">
+    <button type="submit" class="button5" >Next Step</button>
+  </div>
+
+
+
+
+
+
+
+
+</form>
+    
+</body>
+</html>
