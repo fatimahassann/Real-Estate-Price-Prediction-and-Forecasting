@@ -6,6 +6,7 @@ Group 1 Thesis project
 - Menna Ghalwash
 - Mohi Ulabi
 - Salma Aly
+- Mohamed Bedda
 
 # Problem Statement
 Selling a property is a long and complicated procedure that is not always successful. Using ML, we can estimate the market fitting price of the property providing the customer the best fitting price to invest in a property with minimal effort and time. In addition to that, users can use Beitech to make financially smarter decisions by observing the house price forecasting provided through another ML model.
