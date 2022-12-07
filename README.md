@@ -17,3 +17,4 @@ Selling a property is a long and complicated procedure that is not always succes
 3) Scraper.py : this file contains the python code that we used in order to scrape data from aqarmap.
 4) PricePrediction.ipynb : this file contains the notebook of the price prediction model.
 5) PriceFrorecasting.ipynb : this file contains the notebook of the price forecasting model.
+6) backend+frontend: this directory contains the frontend and backend code.
